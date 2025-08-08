@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhucLe Simple Portfolio</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <link rel="icon" href="./assets/rocket-icon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--------------- 
+      Header
+    ----------------->
+    <header>
+      <div class="container header__container">
+        <!-- left column -->
+        <div class="header__column--left">
+          <!-- avatar -->
+          <div class="header__img"></div>
+
+          <div class="header__content--left">
+            <h2 class="header__title">Phúc Lê</h2>
+            <div class="header__badge_container">
+              <div class="badge">Lập trình web, mobile app</div>
+              <div class="badge">Front-end developer</div>
+            </div>
+            <p>
+              Mong muốn ứng tuyển vị trí
+              <span>Junior Front-End Developer</span> , tập trung vào phát triển
+              giao diện web thân thiện với người dùng.
+            </p>
+          </div>
+        </div>
+
+        <!-- right column -->
+        <div class="header__column--right">
+          <h2 class="header__title">Thông Tin Liên Hệ</h2>
+          <p>
+            Gửi email cho mình tại:
+            <span>23521199@gm.uit.edu.vn</span>
+          </p>
+          <p>
+            Gọi cho mình tại:
+            <span>0372630661</span>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!--------------------------------- 
+      About Me - Giới Thiệu Bản Thân
+    ----------------------------------->
+    <section class="aboutMe__section">
+      <!-- Hình động 2 bên -->
+      <img src="./assets/rocket-icon.svg" alt="rocket icon" />
+
+      <img src="./assets/laptop-icon.svg" alt="laptop icon" />
+
+      <!-- Nội dung chính -->
+      <div class="aboutMe__container">
+        <div class="aboutMe__content_container">
+          <h1 class="section__title">Giới Thiệu Bản Thân</h1>
+
+          <p class="section__description">
+            Xin chào! Mình là sinh viên năm ba trường đại học CNTT - ĐHQG
+            TP.HCM. Mình có niềm đam mê với công việc lập trình và vô cùng yêu
+            thích việc tạo ra các trang web và mobile app có giao diện hiện đại,
+            dễ sử dụng và có tính ứng dụng cao.
+          </p>
+
+          <div class="CTA">
+            <a
+              href="./assets/23521199 - Lê Nguyễn Hồng Phúc.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="primaryButton"
+              download
+              >Tải CV</a
+            >
+
+            <a href="#ProjectContainer" class="outlineButton">Xem Dự Án</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------- 
+      Skills - Kỹ Năng
+    ----------------------------------->
+    <section class="skills__section">
+      <div class="container skills__container">
+        <!-- header -->
+        <div class="section__header">
+          <h1 class="section__title">Kỹ năng & Chuyên môn</h1>
+
+          <p class="section__description">
+            Là sinh viên chuyên ngành phát triển web, mình có nền tảng với HTML,
+            CSS, JavaScript, và đã bắt đầu học React. Mình có kinh nghiệm sử
+            dụng C++, Pascal, và làm việc với cơ sở dữ liệu như Microsoft SQL
+            Server, MongoDB. Ngoài ra, mình cũng sử dụng Git để quản lý mã nguồn
+            trong các bài tập nhóm hay dự án cá nhân.
+          </p>
+        </div>
+
+        <!-- grid -->
+        <div class="skills__grid_container">
+          <!-- grid item 1 -->
+          <div class="skills__grid_item"></div>
+
+          <!-- grid item 2 -->
+          <div class="skills__grid_item">
+            <div class="skills__grid_item_header">
+              <div>
+                <img src="./assets/check-icon.svg" alt="check-icon" />
+                <h2>Công cụ & Công nghệ</h2>
+              </div>
+              <p>
+                Với định hướng trở thành Front-end Developer, mình luôn tập
+                trung phát triển kỹ năng thiết kế giao diện hiệu quả và trải
+                nghiệm người dùng trực quan. Mình yêu thích việc biến ý tưởng
+                thành sản phẩm thực tế bằng mã nguồn rõ ràng, dễ mở rộng và luôn
+                sẵn sàng học hỏi công nghệ mới để nâng cao chất lượng giao diện.
+              </p>
+            </div>
+
+            <!-- skill logos -->
+            <div>
+              <!-- list 1 -->
+              <div class="icons-list-wrapper">
+                <div class="icons-list">
+                  <div class="icon-badges">
+                    <img src="./assets/icons/C++.svg" alt="C++ icon" />
+                    <span>C++</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/github.svg" alt="github icon" />
+                    <span>github</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/css.svg" alt="CSS icon" />
+                    <span>CSS</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img
+                      src="./assets/icons/tailwind-css.svg"
+                      alt="tailwind-css icon"
+                    />
+                    <span>TailwindCSS</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/html.svg" alt="html icon" />
+                    <span>html</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/python.svg" alt="python icon" />
+                    <span>Python</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/JS.svg" alt="js icon" />
+                    <span>js</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/react.svg" alt="react icon" />
+                    <span>react</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/mongodb.svg" alt="mongodb icon" />
+                    <span>MongoDB</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/nextjs.svg" alt="nextjs icon" />
+                    <span>nextjs</span>
+                  </div>
+                </div>
+
+                <div class="icons-list">
+                  <div class="icon-badges">
+                    <img src="./assets/icons/C++.svg" alt="C++ icon" />
+                    <span>C++</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/github.svg" alt="github icon" />
+                    <span>github</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/css.svg" alt="CSS icon" />
+                    <span>CSS</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img
+                      src="./assets/icons/tailwind-css.svg"
+                      alt="tailwind-css icon"
+                    />
+                    <span>TailwindCSS</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/html.svg" alt="html icon" />
+                    <span>html</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/python.svg" alt="python icon" />
+                    <span>Python</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/JS.svg" alt="js icon" />
+                    <span>js</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/react.svg" alt="react icon" />
+                    <span>react</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/mongodb.svg" alt="mongodb icon" />
+                    <span>MongoDB</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/nextjs.svg" alt="nextjs icon" />
+                    <span>nextjs</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- list 2 -->
+              <div class="icons-list-wrapper">
+                <div class="icons-list">
+                  <div class="icon-badges">
+                    <img src="./assets/icons/C++.svg" alt="C++ icon" />
+                    <span>C++</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/github.svg" alt="github icon" />
+                    <span>github</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/css.svg" alt="CSS icon" />
+                    <span>CSS</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img
+                      src="./assets/icons/tailwind-css.svg"
+                      alt="tailwind-css icon"
+                    />
+                    <span>TailwindCSS</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/html.svg" alt="html icon" />
+                    <span>html</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/python.svg" alt="python icon" />
+                    <span>Python</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/JS.svg" alt="js icon" />
+                    <span>js</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/react.svg" alt="react icon" />
+                    <span>react</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/mongodb.svg" alt="mongodb icon" />
+                    <span>MongoDB</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/nextjs.svg" alt="nextjs icon" />
+                    <span>nextjs</span>
+                  </div>
+                </div>
+
+                <div class="icons-list">
+                  <div class="icon-badges">
+                    <img src="./assets/icons/C++.svg" alt="C++ icon" />
+                    <span>C++</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/github.svg" alt="github icon" />
+                    <span>github</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/css.svg" alt="CSS icon" />
+                    <span>CSS</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img
+                      src="./assets/icons/tailwind-css.svg"
+                      alt="tailwind-css icon"
+                    />
+                    <span>TailwindCSS</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/html.svg" alt="html icon" />
+                    <span>html</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/python.svg" alt="python icon" />
+                    <span>python</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/JS.svg" alt="js icon" />
+                    <span>js</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/react.svg" alt="react icon" />
+                    <span>react</span>
+                  </div>
+
+                  <div class="icon-badges">
+                    <img src="./assets/icons/mongodb.svg" alt="mongodb icon" />
+                    <span>MongoDB</span>
+                  </div>
+                  <div class="icon-badges">
+                    <img src="./assets/icons/nextjs.svg" alt="nextjs icon" />
+                    <span>nextjs</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- grid item 3 -->
+          <div class="skills__grid_item">
+            <div class="skills__grid_item_header">
+              <div>
+                <img src="./assets/check-icon.svg" alt="check icon" />
+                <h2>Kỹ Năng Mềm</h2>
+              </div>
+              <p>
+                Có kỹ năng giao tiếp, làm việc nhóm và giải quyết vấn đề tốt.
+                Luôn chủ động, ham học hỏi, tư duy sáng tạo và dễ dàng thích
+                nghi trong môi trường làm việc năng động.
+              </p>
+            </div>
+
+            <div class="softSkills__container">
+              <div class="softSkills_badge">
+                <p>Giao tiếp chuyên nghiệp</p>
+              </div>
+
+              <div class="softSkills_badge">
+                <p>Quản lý thời gian hiệu quả</p>
+              </div>
+              <div class="softSkills_badge">
+                <p>Tư duy sáng tạo</p>
+              </div>
+              <div class="softSkills_badge">
+                <p>Chủ động học hỏi</p>
+              </div>
+
+              <div class="softSkills__book_icons">
+                <img src="./assets/closed-book.svg" alt="closed book icon" />
+                <img src="./assets/closed-book.svg" alt="closed book icon" />
+                <img src="./assets/closed-book.svg" alt="closed book icon" />
+                <img src="./assets/closed-book.svg" alt="closed book icon" />
+              </div>
+            </div>
+          </div>
+
+          <!-- grid item 4 -->
+          <div class="skills__grid_item"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------- 
+      Projects - Dự Án
+    ----------------------------------->
+    <section class="projects__section" id="ProjectContainer">
+      <div class="container projects_container">
+        <!-- header -->
+        <div class="section__header">
+          <h1 class="section__title">Đồ Án Thực Chiến</h1>
+          <p class="section__description">
+            Bộ sưu tập dự án cá nhân này giúp mình củng cố và hoàn thiện những
+            kỹ năng kỹ thuật cũng như khả năng giải quyết vấn đề một cách sáng
+            tạo.
+          </p>
+        </div>
+
+        <!-- cards -->
+        <div class="projects__cards_container">
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <div class="projects_cards">
+              <div class="projects__cards_wrapper">
+                <img
+                  src="./assets/project1.jpg"
+                  alt="project1"
+                  class="projects__cards_img"
+                />
+              </div>
+              <div class="projects__cards_titles">
+                <h4>dự án 1</h4>
+                <h3>Portofolio</h3>
+              </div>
+            </div>
+          </a>
+
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <div class="projects_cards">
+              <div class="projects__cards_wrapper">
+                <img
+                  src="./assets/update.jpg"
+                  alt="project1"
+                  class="projects__cards_img"
+                />
+              </div>
+              <div class="projects__cards_titles">
+                <h4>dự án 2</h4>
+                <h3>chờ cập nhật</h3>
+              </div>
+            </div>
+          </a>
+
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <div class="projects_cards">
+              <div class="projects__cards_wrapper">
+                <img
+                  src="./assets/update.jpg"
+                  alt="project1"
+                  class="projects__cards_img"
+                />
+              </div>
+              <div class="projects__cards_titles">
+                <h4>dự án 3</h4>
+                <h3>chờ cập nhật</h3>
+              </div>
+            </div> </a
+          ><a href="" target="_blank" rel="noopener noreferrer">
+            <div class="projects_cards">
+              <div class="projects__cards_wrapper">
+                <img
+                  src="./assets/update.jpg"
+                  alt="project1"
+                  class="projects__cards_img"
+                />
+              </div>
+              <div class="projects__cards_titles">
+                <h4>dự án 4</h4>
+                <h3>chờ cập nhật</h3>
+              </div>
+            </div> </a
+          ><a href="" target="_blank" rel="noopener noreferrer">
+            <div class="projects_cards">
+              <div class="projects__cards_wrapper">
+                <img
+                  src="./assets/update.jpg"
+                  alt="project1"
+                  class="projects__cards_img"
+                />
+              </div>
+              <div class="projects__cards_titles">
+                <h4>dự án 5</h4>
+                <h3>chờ cập nhật</h3>
+              </div>
+            </div>
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <div class="projects_cards">
+              <div class="projects__cards_wrapper">
+                <img
+                  src="./assets/update.jpg"
+                  alt="project1"
+                  class="projects__cards_img"
+                />
+              </div>
+              <div class="projects__cards_titles">
+                <h4>dự án 6</h4>
+                <h3>chờ cập nhật</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------- 
+      Footer
+    ----------------------------------->
+    <footer>
+      <div class="container">
+        <p>© PhucLe's Portfolio</p>
+      </div>
+    </footer>
+  </body>
+</html>
